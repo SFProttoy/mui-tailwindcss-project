@@ -9,17 +9,9 @@ import {
 import Image from "next/image";
 import React from "react";
 import bus from "../public/bus-icon.png";
-import img2 from "../public/Group.png";
+
 import coin from "../public/Tripcoin.png";
-import v1 from "../public/Vector (1).png";
-import v2 from "../public/Vector (2).png";
-import v3 from "../public/Vector (3).png";
-import v4 from "../public/Vector (4).png";
-import img1 from "../public/Vector (Stroke) 1.png";
-import {
-  default as img3,
-  default as img4,
-} from "../public/Vector (Stroke) 3.png";
+
 import v from "../public/Vector.png";
 import v5 from "../public/Vector5.png";
 
@@ -94,28 +86,43 @@ const Main = () => {
         <div className="flex">
           <div className="w-60 h-10 flex shadow">
             <div className="inline-block ml-4">
-              <Image src={img1} alt="Image1" width={32} height={32} />
+              <img
+                src="/Vector (Stroke) 1.png"
+                alt="Image1"
+                width={32}
+                height={32}
+              />
             </div>
             <p className="ml-3 mt-2">Earliest Buses</p>
           </div>
 
           <div className="w-60 h-10 flex shadow bg-blue-600">
             <span className="ml-4">
-              <Image src={img2} alt="Image2" width={32} height={32} />
+              <img src="/Group.png" alt="Image2" width={32} height={32} />
             </span>
             <p className="ml-3 mt-2 text-white">Cheapest Buses</p>
           </div>
 
           <div className="w-60 h-10 flex shadow">
             <span className="ml-4">
-              <Image src={img3} alt="Image3" width={32} height={32} />
+              <img
+                src="/Vector (Stroke) 3.png"
+                alt="Image3"
+                width={32}
+                height={32}
+              />
             </span>
             <p className="ml-3 mt-2">Available Seats</p>
           </div>
 
           <div className="w-60 h-10 flex shadow">
             <span className="ml-4">
-              <Image src={img4} alt="Image4" width={32} height={32} />
+              <img
+                src="/Vector (Stroke) 3.png"
+                alt="Image4"
+                width={32}
+                height={32}
+              />
             </span>
             <p className="ml-3 mt-2">Fastest Trips</p>
           </div>
@@ -225,19 +232,19 @@ const Main = () => {
                 <span className="ml-2.5 text-sm">3 Sold Out</span>
               </div>
               <div className="flex mt-6 mr-8">
-                <Image src={v1} alt="v" width={20} height={20} />
+                <img src="/Vector (1).png" alt="v" width={20} height={20} />
                 <span className="ml-2.5 text-sm">2 Booked</span>
               </div>
               <div className="flex mt-6 mr-8">
-                <Image src={v2} alt="v" width={20} height={20} />
+                <Image src="/Vector (2).png" alt="v" width={20} height={20} />
                 <span className="ml-2.5 text-sm">2 Selected</span>
               </div>
               <div className="flex mt-6 mr-8">
-                <Image src={v3} alt="v" width={20} height={20} />
+                <Image src="/Vector (3).png" alt="v" width={20} height={20} />
                 <span className="ml-2.5 text-sm">14 Available</span>
               </div>
               <div className="flex mt-6 mr-8">
-                <Image src={v4} alt="v" width={20} height={20} />
+                <Image src="/Vector (4).png" alt="v" width={20} height={20} />
                 <span className="ml-2.5 text-sm">20 Blocked</span>
               </div>
             </div>
@@ -254,7 +261,7 @@ const Main = () => {
             <div className="flex justify-between">
               <div className="flex mt-6">
                 <span>
-                  <Image src={v5} alt="v" width={20} height={20} />
+                  <img src="/Vector5.png" alt="v" width={20} height={20} />
                 </span>
                 <span className="ml-2.5 text-sm">
                   C4 <span className="ml-3.5">B-Class</span>

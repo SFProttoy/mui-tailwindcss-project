@@ -1,14 +1,13 @@
 import { Box, Grid, MenuItem } from "@mui/material";
-import Image from "next/image";
 import React from "react";
-import Logo from "../public/Group 37.png";
+// import Logo from "../public/Group 37.png";
 const Navbar = () => {
   return (
     <header className="mt-10">
       <nav>
         <Grid container spacing={7}>
           <Grid item xs={2}>
-            <Image src={Logo} alt="logo" width="178px" height="56px" />
+            <img src="/Group 37.png" alt="logo" width="178px" height="56px" />
           </Grid>
           <Grid item xs={8}>
             <Box
