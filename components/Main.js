@@ -236,15 +236,15 @@ const Main = () => {
                 <span className="ml-2.5 text-sm">2 Booked</span>
               </div>
               <div className="flex mt-6 mr-8">
-                <Image src="/Vector (2).png" alt="v" width={20} height={20} />
+                <img src="/Vector (2).png" alt="v" width={20} height={20} />
                 <span className="ml-2.5 text-sm">2 Selected</span>
               </div>
               <div className="flex mt-6 mr-8">
-                <Image src="/Vector (3).png" alt="v" width={20} height={20} />
+                <img src="/Vector (3).png" alt="v" width={20} height={20} />
                 <span className="ml-2.5 text-sm">14 Available</span>
               </div>
               <div className="flex mt-6 mr-8">
-                <Image src="/Vector (4).png" alt="v" width={20} height={20} />
+                <img src="/Vector (4).png" alt="v" width={20} height={20} />
                 <span className="ml-2.5 text-sm">20 Blocked</span>
               </div>
             </div>
